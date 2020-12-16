@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImoQuest</string>
+    <string name="main_text">Выберите тест по кибербезопастности:</string>
+    <string name="test_1">Тест:Сообщение от незнакомца</string>
+    <string name="test_2">Тест: На знание основ безопасности в интернете</string>
+    <string name="test_e">Завершить тест</string>
+</resources>

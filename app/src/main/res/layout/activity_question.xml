@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c1c1c"
+    tools:context=".Question">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:autoSizeTextType="uniform"
+        android:layout_width="409dp"
+        android:layout_height="160dp"
+        app:layout_constraintBottom_toBottomOf="@+id/questTW"
+        app:layout_constraintEnd_toEndOf="@+id/questTW"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/questTW"
+        app:layout_constraintTop_toTopOf="@+id/questTW"
+        app:layout_constraintVertical_bias="0.475"
+        app:srcCompat="@android:drawable/bottom_bar" />
+
+    <ImageButton
+        android:id="@+id/ts6"
+        android:layout_width="271dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ts5"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/bottom_bar" />
+
+    <ImageButton
+        android:id="@+id/ts5"
+        android:layout_width="271dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ts4"
+        app:srcCompat="@android:drawable/bottom_bar" />
+
+    <ImageButton
+        android:id="@+id/ts4"
+        android:layout_width="271dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ts"
+        app:srcCompat="@android:drawable/bottom_bar" />
+
+    <ImageButton
+        android:id="@+id/ts"
+        android:layout_width="271dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questTW"
+        app:srcCompat="@android:drawable/bottom_bar" />
+
+    <TextView
+        android:id="@+id/ts1TX4"
+        android:layout_width="257dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:autoSizeTextType="uniform"
+        android:text="@string/test_1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="40px"
+        app:layout_constraintBottom_toBottomOf="@+id/ts6"
+        app:layout_constraintEnd_toEndOf="@+id/ts6"
+        app:layout_constraintStart_toStartOf="@+id/ts6"
+        app:layout_constraintTop_toTopOf="@+id/ts6" />
+
+    <TextView
+        android:id="@+id/ts1TX3"
+        android:layout_width="257dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="@string/test_1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="40px"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@+id/ts5"
+        app:layout_constraintEnd_toEndOf="@+id/ts5"
+        app:layout_constraintStart_toStartOf="@+id/ts5"
+        app:layout_constraintTop_toTopOf="@+id/ts5" />
+
+    <TextView
+        android:id="@+id/ts1TX2"
+        android:layout_width="257dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="@string/test_1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="40px"
+        app:layout_constraintBottom_toBottomOf="@+id/ts4"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="@+id/ts4"
+        app:layout_constraintStart_toStartOf="@+id/ts4"
+        app:layout_constraintTop_toTopOf="@+id/ts4" />
+
+    <TextView
+        android:id="@+id/ts1TX"
+        android:layout_width="257dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="@string/test_1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="40px"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@+id/ts"
+        app:layout_constraintEnd_toEndOf="@+id/ts"
+        app:layout_constraintStart_toStartOf="@+id/ts"
+        app:layout_constraintTop_toTopOf="@+id/ts" />
+
+    <TextView
+        android:id="@+id/questTW"
+        android:layout_width="298dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:autoSizeTextType="uniform"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="60px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="92dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:alpha="0.8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

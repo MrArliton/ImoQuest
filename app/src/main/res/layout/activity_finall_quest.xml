@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c1c1c"
+    tools:context=".bin.FinallQuest">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="92dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:alpha="0.8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/tsExit"
+        android:layout_width="273dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/bottom_bar" />
+
+    <TextView
+        android:id="@+id/exitT"
+        android:layout_width="253dp"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:autoSizeTextType="uniform"
+        android:text="@string/test_e"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="60px"
+        app:layout_constraintBottom_toBottomOf="@+id/tsExit"
+        app:layout_constraintEnd_toEndOf="@+id/tsExit"
+        app:layout_constraintStart_toStartOf="@+id/tsExit"
+        app:layout_constraintTop_toTopOf="@+id/tsExit" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="408dp"
+        android:layout_height="489dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Result"
+        app:layout_constraintEnd_toEndOf="@+id/Result"
+        app:layout_constraintStart_toStartOf="@+id/Result"
+        app:layout_constraintTop_toTopOf="@+id/Result"
+        app:layout_constraintVertical_bias="0.434"
+        app:srcCompat="@android:drawable/editbox_dropdown_dark_frame" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="342dp"
+        android:layout_height="254dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="40px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+</androidx.constraintlayout.widget.ConstraintLayout>
