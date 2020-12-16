@@ -6,9 +6,12 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
+
+
     defaultConfig {
         applicationId "com.example.Imo"
         minSdkVersion 22
+        archivesBaseName="ImoQuestI"
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
